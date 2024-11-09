@@ -2,8 +2,6 @@ import streamlit as st
 import asyncio
 from helpers import generate
 
-
-
 st.set_page_config(page_title="RoadMap.AI", page_icon=":material/code:", layout="centered")
 
 st.title("RoadMap.AI")
@@ -29,3 +27,33 @@ with st.sidebar:
 
     with st.expander("About the Model"):
         st.write("Cody is powered by the RAG (Retrieval-Augmented Generation) architecture over Llama3.1 400B base model, which combines the strengths of retrieval-based and generation-based models to provide accurate and comprehensive responses. The model is trained on a knowledge base of over 100,000 documents curated by professionals to ensure that Cody provides expert advice on how to start learning coding and advance in various technical niches.")
+
+
+if "messages" not in st.session_state:
+    st.session_state.messages = []
+
+for message in st.session_state.messages:
+    with st.chat_message(message["role"]):
+        st.markdown(message["content"])
+
+if prompt := st.chat_input("Ask Cody Anything!"):
+    st.session_state.messages.append({"role": "user", "content": prompt})
+    with st.chat_message("user"):
+        st.markdown(prompt)
+
+    history = st.session_state.messages[-10:]
+    formatted_history = ""
+    for entry in history:
+        role = entry["role"]
+        content = entry["content"]
+        formatted_history += f"{role}: {content}\n"
+
+    history_text = formatted_history
+
+    with st.chat_message("assistant"):
+        with st.spinner("Thinking..."):
+            response = asyncio.run(generate(prompt, formatted_history))
+        st.write(response)
+    st.session_state.messages.append({"role": "assistant", "content": response})
+else:
+    st.write("Ask Cody anything about coding, including roadmaps and guidance! 🤖")
