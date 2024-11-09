@@ -25,3 +25,30 @@ class CustomConfig(BaseModel):
 class CustomAPILLM(LLM):
     api_key: str = None
     api_url: str = None
+
+
+    def __init__(self, config: CustomConfig, callbacks: Optional[List] = None):
+        super().__init__()
+        self.api_url = config.api_url
+        self.api_key = config.api_key
+        self.callbacks = callbacks or []
+
+    @property
+    def _llm_type(self) -> str:
+        return "custom_api"
+
+    def _call(
+        self,
+        prompt: str,
+        stop: Optional[List[str]] = None,
+        run_manager: Optional[Any] = None,
+        **kwargs: Any,
+    ) -> str:
+        headers = {
+            "Content-Type": "application/json",
+            "apiKey": self.api_key,
+        }
+        data = {"messages": [{"role": "user", "content": prompt}]}
+        response = requests.post(self.api_url, json=data, headers=headers)
+        response.raise_for_status()
+        return response.json().get("result", {}).get("content", "")
