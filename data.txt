@@ -401,3 +401,206 @@ C++ is a successor to C. C++ syntax is similar to C with the addition of objects
 I recommend beginning with C, though, since there are fewer concepts to learn, all of which can be mapped to C++. It will also teach you the basics of function-oriented programming.
 
 Best for: Those intrigued by system-level programming, game development, or applications where performance is critical.
+
+C#
+How to learn coding programming language example: C-sharp
+
+Image Source
+
+C#, also called C-sharp, is popular for developing video games, mobile and desktop apps, and enterprise software. C# shares a common source with C++, but while C++ and C have many overlaps, C# is more like Java.
+
+C# is easy to learn, and there are many ways to use it. If you plan to use both C++ and C#, you may want to learn C++ first. This will make it easier to understand C# and can help speed up the learning process.
+
+Java
+Coding for beginners programming language example: Java
+
+Image Source
+
+Java (not to be confused with JavaScript) is a general-purpose object-oriented programming language. Like Python, Java’s syntax is easy to read and understand by human programmers — often, complex tasks can be handled by one command.
+
+Java is popularly implemented in Android mobile applications. It’s another great base language with principles that can be intuitively applied to learning other languages.
+
+Pro Tip: Pay close attention to understanding object-oriented programming when tackling Java, as it forms the core of its functionality.
+
+HyperText Preprocessor (PHP)
+How to learn coding programming language example: PHP
+
+Image Source
+
+PHP is a server-side, open-source programming language for developing web applications. It makes it easy to add dynamic information, like updated news stories, to websites.
+
+You can also embed this language into HTML, which makes it easy to add functions to your website without needing external files. PHP is also great for database access, making it simple to access and store data.
+
+Best for: Beginners who want to delve into the server-side aspect of web development.
+
+Ruby
+Coding for beginners programming language example: Ruby
+
+Image Source
+
+Ruby is a simple language that’s useful for creating automation tools, desktop applications, and rapid prototypes. There is also a popular framework for Ruby, often called Ruby on Rails.
+
+Ruby is another open-source server-side programming language. Its framework also offers default structures for web pages, web services, and databases. This makes it a useful tool for developing web applications.
+
+While this language is easy to read and write, it may not be the best choice for your first programming language. This is because it’s also quite flexible, so it easily accepts changes.
+
+Flexibility is great when you’re first learning how to make a coding project go. But it can impact changes to your code as you maintain the project over time.
+
+What I like: Ruby is an excellent choice for rapid application development due to its 'convention over configuration' philosophy.
+
+SQL
+Coding for beginners programming language example: SQL
+
+Image Source
+
+SQL is another useful language for beginners. You can use this language to update, store, and retrieve data from a database. It’s also the standard language for database management systems, according to the American National Standards Institute.
+
+It’s different from the other programming languages since it’s technically a Query Language, so you won’t be building web pages with it.
+
+It can take some time to learn SQL if you don’t already have some understanding of programming. That said, this language is popular in tech and with data professionals, so it has a lot of relevance in the workplace.
+
+What I like: SQL is needed for projects that involves data storage and retrieval, making it a must-learn for web developers.
+
+Swift
+Coding for beginners programming language example: Swift
+
+Image Source
+
+If you’re learning to code to create projects for Apple devices, Swift is a good language to start with. Designers at Apple created this language with beginners in mind. And if your primary goal is to develop mobile apps for iOS devices, this should be your language of choice.
+
+While programmers have created most products since 2014 with Swift, you may also want to learn Objective-C.
+
+Developers created this language in the 1980s. It’s what their team built most iOS tools with. It uses some C syntax, so if you’ve learned C or C++ already, you may want to start with Objective-C as you start learning.
+
+Best for: Anyone aspiring to develop apps for Apple's platforms. Swift's modern features and safety make it a go-to for iOS app development.
+
+
+50 Free Coding Templates
+Free code snippet templates for HTML, CSS, and JavaScript -- Plus access to GitHub.
+
+Navigation Menus & Breadcrumbs Templates
+Button Transition Templates
+CSS Effects Templates
+And more!
+Get Your Free Templates
+Learn more
+Tips for Coding for Beginners
+As someone who ventured into the coding world not too long ago, I understand the mixed feelings of excitement and apprehension that come with learning to code. There are many ways to approach the practice of coding, and some methods and languages will work better for you than others.
+
+No matter what or how you learn, however, remember these beginner tips:
+
+1. Be patient.
+At the top of this post, I said anyone can learn to code. However, that doesn’t mean it’s easy.
+
+Coding requires you to approach problems in ways you haven’t before. Certain topics may seem nonsensical to you, yet central to the language you’re learning. Problems that might seem easy at first will become far more complex to implement than you expected. You might spend hours hacking away at an assignment without seeing results.
+
+And we can’t forget debugging. You’ll quickly learn that computers are nit-picky and will only do exactly what you tell them. Tiny typos like a missing semicolon or incorrect operator will break your entire program, and you must track down the culprit.
+
+Even coding for beginners isn’t easy.
+All of this can be uncomfortable and discouraging, and that’s okay. Do yourself a favor and progress slowly and steadily, giving yourself time to let everything soak in.
+
+The best programmers were once where you are, and everyone has to learn the same things to start. Go easy on yourself, stick to the goals you’ve set, take breaks, and you’ll be fine.
+
+2. Get comfortable with the fundamentals.
+The early days of learning a programming language are all about the essentials. You might start by learning binary, data types, and how to print to the console. From there, you’ll explore topics like:
+
+Variables.
+Functions.
+Conditional logic.
+Arrays.
+Objects.
+It’s essential that you fully grasp each of these concepts before advancing. This is because everything you learn in computer science builds on topics that come before.
+
+If something doesn’t make sense, keep reviewing it until it does. And don’t assume it will make sense later in the context of future lessons. If you’re learning from a tutorial, be sure you understand what each activity is meant to teach you.
+
+Complete all exercises to experience first-hand how each topic applies to coding. And stay patient — you can’t embark on an ambitious project until you grasp the fundamentals.
+
+3. Write clean code from the start.
+Here’s something an online course may not teach you: On top of learning how to write your code, you should also practice writing it well.
+
+What does this mean? For any given computation, there will be more than one way to program it. You should always strive to write it in the most concise and humanly readable way that you can.
+
+Developers usually work in teams, so others will be reading your code often. If it’s hard to decipher, fellow developers won’t look forward to working with you.
+
+Even if you decide to freelance, writing clean code ensures you’ll understand your own code. It’s better to build the habit of clean coding now, as it will save you hours trying to decipher your work after you haven’t looked at it in months.
+
+Why is clean code important?
+You might be wondering why you need to learn clean code at this point. You’re a beginner, so shouldn’t writing functional programs be the main goal?
+
+Well, yes. This is about establishing good habits early. If you put in the extra work now, you’ll save yourself (and others) some sanity down the road.
+
+A good way to achieve this is by keeping your lines and your functions short. I recommend limiting each line of code to 80 characters max and each function to no more than 15 lines.
+
+While limiting at first, these rules will train you to favor efficient code over the first idea that occurs to you.
+
+Also, make a habit of commenting. Comments are segments of code that aren’t processed by the computer, so you can write whatever you want inside them.
+
+Programmers use comments to clarify the purpose of their code. Learn how comments work in your language and, at the very least, leave comments at the top of your functions explaining the job of each one.
+
+4. Search is your friend.
+There’s no shame in using Google to find the solutions to your coding problems. In fact, professional developers do it all the time.
+
+If you’re struggling, someone’s probably been in the same situation and dropped a question to a forum. You’d be surprised at how many solutions you’ll find with super-specific queries.
+
+Plus, it’s quite satisfying to close 20 tabs of Stack Exchange after finally fixing a stubborn bug.
+
+Our Favorite Coding Resources
+Coursera
+Programming for beginners, Homepage of Coursera
+
+Coursera is an excellent resource in general. They have many programming and coding courses from Google, IBM, as well as various colleges and universities. You can get many paid courses through their monthly subscription, though they have free courses as well.
+
+Coursera also offers financial aid on a per-course basis. If approved, you can get free access to the paid content. It’s worth mentioning that the access granted is only for a limited time through this method. If you don’t touch a course for several months, you will likely lose access.
+
+Another nice thing about Coursera is that it’s treated like a classroom environment. This means you have an instructor for each course that you can ask for help, as well as other students that are currently taking the course. You can also get professional certifications that can help advance or change your career.
+
+MDN Web Docs
+Programming for beginners, homepage of MDN Web Docs
+
+If you’re doing web development, MDN Web Docs is the gold standard for documentation. Everything related to HTML, CSS, and JavaScript lives here. This site belongs to the Mozilla Foundation, which you may know for their popular web browser, Firefox.
+
+MDN Web Docs also has many tutorials ranging from complete beginners to the advanced level.
+
+Codecademy
+Programming for beginners, Homepage of Codeacademy
+
+Codecademy is great for diving right in and writing code almost immediately. It gives you small digestible tasks to work on, as well as a sandbox to work in. They have courses for just about every language you can imagine.
+
+Most of their content is free, though they have paid guided projects and career paths you can opt for, as well as career services and professional certifications.
+
+The Odin Project
+Programming for beginners, Homepage of The Odin Project
+
+The Odin Project is an open-source, full-stack curriculum for web development. They have two paths, one using Ruby on Rails and the other using JavaScript (with the React framework).
+
+The amount of information available is a bit daunting, but the best part about The Odin Project is that you will end up with many real projects to hone your skills and show off to potential employers by the end of it.
+
+W3Schools
+Programming for beginners, Homepage of W3schools
+
+W3schools has a ton of tutorials that range from typical programming languages, to frameworks and other languages like SQL and HTML. They also have plenty of example code you can play with and reference during your coding adventures.
+
+The best part is that everything is free. They do have some paid certifications, though all of the actual information about the languages is readily available.
+
+Stack Overflow
+Programming for beginners, Homepage of Stackoverflow
+
+Stack Overflow is an incredibly popular and useful site for developers. People ask questions about coding and get feedback. Then, the answers are voted on to determine the best solution. Even when you’re no longer a beginner, you will likely keep returning here to find answers to various questions or issues.
+
+The community is very active, and the public platform is free. You just need to create an account to interact with others.
+
+Coding is more than just the code.
+To finish up, I want to share one more valuable piece of advice from my first computer science class. From a beginner’s perspective, it may seem like learning to code means learning how to write code.
+
+This makes sense: When we imagine a computer programmer, we see someone writing out code on a computer — it’s called “coding” after all.
+
+Once you begin, though, you’ll learn that this isn’t the whole story. You’ll spend a lot more time thinking about what to write than actually writing it.
+
+Coding is problem-solving.
+This is because coding is more about solving problems than knowing the syntax. Learning to code is learning to think like computers do, deconstruct problems into their components, and address them with the tools you’re given.
+
+So, yes, you’ll learn to write some impressive code and eventually build amazing things. But first, you’ll develop the thinking skills that can get you there.
+
+In my years of coding, this approach to problem-solving has changed how I tackle technical challenges and how I approach problems in general. I hope you’ll experience the same. Keep going. You got this.
+
+Editor's note: This post was originally published in December 2020 and has been updated for comprehensiveness.
