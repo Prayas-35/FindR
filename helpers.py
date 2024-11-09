@@ -52,3 +52,33 @@ class CustomAPILLM(LLM):
         response = requests.post(self.api_url, json=data, headers=headers)
         response.raise_for_status()
         return response.json().get("result", {}).get("content", "")
+
+loader = TextLoader("data.txt")
+docs = loader.load()
+
+text_splitter = CharacterTextSplitter(chunk_size=3000, chunk_overlap=500)
+documents = text_splitter.split_documents(docs)
+
+embeddings = GoogleGenerativeAIEmbeddings(
+    model="models/embedding-001",
+    google_api_key=GOOGLE_API_KEY,
+)
+
+capath = "/etc/ssl/certs/ca-certificates.crt"
+vector_store = TiDBVectorStore.from_documents(
+    documents=documents,
+    embedding=embeddings,
+    table_name="CodingGuidance",
+    connection_string=f"mysql+mysqldb://2zU6uAawmvKDo4B.root:YHOr6v6CPfCNK3WI@gateway01.eu-central-1.prod.aws.tidbcloud.com:4000/test?ssl_ca={capath}",
+    distance_strategy="cosine",
+    drop_existing_table=True,
+)
+
+retriever = vector_store.as_retriever(score_threshold=0.5)
+
+
+config = CustomConfig(
+    api_url="https://api.jabirproject.org/generate",
+    api_key=JABIR_API_KEY,
+)
+custom_llm = CustomAPILLM(config=config)
