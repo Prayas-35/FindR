@@ -195,3 +195,209 @@ Code Editor
 Text editors include features to make coding easier like color coding, auto-complete, find-and-replace, and dark mode.
 
 In my experience, most professionals use a code editor. This tool can help you write clean code faster. Code editors are like text editors, but they have extra features that help you manage and edit your code like:
+
+Syntax highlighting
+Code lookup
+Built-in terminal environment
+Notepad++, Sublime Text, and Emacs are popular editors for beginners. VS Code is also a great option.
+
+Console
+You’ll also want to get to know your computer a little better. When you start coding you should learn how to navigate the console (also called a terminal). This is the text-based interface for your operating system.
+
+The console lets you find files and execute commands on them more quickly than the standard graphical user interface (GUI). Familiarize yourself with how to use it, including the basic UNIX commands, since you’ll be doing things that aren’t possible in the GUI.
+
+Project Management
+Many projects start simple but get more complicated as the project goes on. Using a project management tool, you can share files, update timelines, and break out separate parts of coding projects. This makes it easier to keep track of side projects and extra files while sticking to your timeline.
+
+Troubleshooting
+As you work on your coding projects, you may run into bugs, roadblocks, and other challenges. This can be super frustrating. Rubber Duck Debugging may sound silly, but it can help you simplify your problem and find useful solutions.
+
+7. Check out how other people code.
+It’s easier for some people to edit someone else’s work than to create from a blank page. If this is you, a great way to learn how to code is to go through someone else’s code.
+
+Checking out other programmers' code can inspire you and push your coding skills further. This approach will help you:
+
+Better understand your own code.
+Understand new code faster.
+Give you tangible examples of quality coding.
+How to learn coding resource: searchcode
+
+Image Source
+
+Start with a program or code file you like. If you’re unsure what code to start with, GitHub and searchcode are great starting points. Try to start with peer-reviewed code or open-source projects if you can.
+
+If you know what the code does, choose one small section and work backward. This will help you understand the function of every line of code. It’s also a good idea to read the documentation. You can then see the ideas behind the code you’re reviewing.
+
+
+50 Free Coding Templates
+Free code snippet templates for HTML, CSS, and JavaScript -- Plus access to GitHub.
+
+Navigation Menus & Breadcrumbs Templates
+Button Transition Templates
+CSS Effects Templates
+And more!
+Get Your Free Templates
+Learn more
+8. Complete coding projects.
+You learn programming by doing — there’s no way around it. You can read up on all the concepts and syntax necessary to write functional code, but the ideas won’t fully materialize in your mind unless you put what you learn into practice. That’s where projects come in.
+
+A project is any program (or website) built with your language of choice. When starting, keep projects short-term.
+
+If you’re taking a course, you may be assigned projects designed to solidify a concept. There are also loads of beginner programming projects you can try independently. Some classic projects include:
+
+A time converter, in which the user submits a number of seconds, and your program gives the equivalent in hours, minutes, days, etc.
+A random number generator, which produces a random number between two values specified by the user.
+A calculator, in which the user specifies their inputs and mathematical operation, and your program gives an output.
+An address book, in which users can submit contact names, then search for contacts stored in your program.
+An alphabetizer, in which the user offers a list of words, and your program sorts them in alphabetical order.
+A hangman game, in which the user tries to guess a hidden word by inputting letters, and your game gives feedback for correct or incorrect guesses. When the user guesses all the letters to your word, they win.
+A quick Google search will reveal even more mini-challenges that require applying your skills to real-world problems.
+
+Benefits of Coding Projects
+On top of practicing concepts, projects offer two more benefits to your learning.
+
+First, they’ll keep you motivated. Projects help solidify the “why” behind your coding and set clear, tangible benchmarks for your progress. Each completed project means one more skill under your belt. As I was learning, this was very encouraging.
+
+Second, coding projects, especially long-term ones, give you something to show for your work. It’s one thing to put “Python” on your resume — it’s another to show you built an entire website or application from scratch.
+
+Projects are a must for entry-level programming jobs, as they prove competency in a given language.
+
+How to Stay Motivated While You’re Coding
+When embarking on longer-term projects, consider things you’re willing to invest time in. Whether it’s a personal website, a mobile application, or a desktop tool, you’ll hit speed bumps along the way. Choosing a project you truly care about ensures you follow through.
+
+Another great way to stay engaged with coding projects is by freelancing. You don’t need to be an expert programmer to build a useful tool for someone. Reach out to a friend, family member, or local business in need of a tool or website — it’s a win-win.
+
+9. Find a mentor and a community.
+Having a friend or an online community to guide you can be invaluable to your learning.
+
+First, I recommend finding a mentor. As you progress, you’ll probably encounter issues that, no matter how hard you try, you just can’t crack. This is where mentors can help.
+
+A mentor doesn’t need to be an actual teacher — they can be anyone knowledgeable in your language. They should be able to explain difficult concepts and point you to solutions. An experienced mentor can help you follow coding practices not covered in tutorials and offer advice for navigating a career in tech.
+
+You may also want to join a community. Look for local groups, networking events and meetups in your area, and hackathons where you can make in-person connections with other programmers.
+
+Online developer communities are also a rich resource for beginners.
+
+How to learn coding resource: Stack Overflow
+
+Image Source
+
+Be sure to check out:
+
+Stack Overflow, a forum site for programming questions and discussion.
+GitHub, a code repository for open-source projects with an active developer community.
+Women Who Code, a nonprofit that organizes events, communities, and job postings for women pursuing careers in technology.
+r/learnprogramming, a subreddit (a microsite on Reddit.com) for beginner coders.
+10. Consider enrolling in a coding boot camp.
+A coding boot camp is a short-term training program that packs a comprehensive coding curriculum into several months. These programs are fast-paced, immersive, and a launchpad for a development career.
+
+Coding boot camps are intensive and expensive — not the kind of thing to dive into without any coding experience.
+
+These programs are primarily for beginners who are set on a career in development and are ready to commit time, energy, and money to get the necessary skills quickly.
+
+While grads tend to find employment in the tech industry, understand that this isn’t a guaranteed outcome. You’ll set aside a decent chunk of your year and savings for such a pursuit. Still, it’s difficult to top an in-person learning environment surrounded by peers and teachers as motivated as you are.
+
+Coding vs. Programming
+The terms coding and programming are often used interchangeably, but they don’t always mean the same thing. Both coding and programming mean writing instructions for a computer. But programming might also include algorithms and data structures. Generally, the term programming describes more advanced projects.
+
+While you can code with just a computer and some time, some programming might need specialized software tools. Programming projects are usually bigger and more complex. They may need project management and a more solid knowledge base.
+
+Programming Languages
+Programming languages graphic
+
+Coding requires knowledge of at least one coding language, a set of syntax and rules that computers can understand. There are hundreds of coding languages, each one unique in its purpose and what it can do.
+
+When I first stepped into the world of coding, the array of programming languages seemed overwhelming. I began with HTML and CSS, and it was a transformative experience. Diving into HTML opened my eyes to the fundamental structure of web pages, while CSS unlocked the secrets of styling and design. These languages were the perfect starting point for a newbie like me, offering a hands-on introduction to the world of web development.
+
+Programming languages give you a structure for the instructions you’re writing. This language looks like English, but not exactly. Programmers call the terms and grammar in a programming language syntax.
+
+
+50 Free Coding Templates
+Free code snippet templates for HTML, CSS, and JavaScript -- Plus access to GitHub.
+
+Navigation Menus & Breadcrumbs Templates
+Button Transition Templates
+CSS Effects Templates
+And more!
+Get Your Free Templates
+Learn more
+Low-level languages like Assembly or Machine are easier for machines to read than humans, so they can be tough to learn. That said, a middle-level language like C++ is useful to know if you want to write:
+
+Operating systems
+Database systems
+Image or video processing software
+High-level languages are usually easier for beginners. Some focus more on structure, while others are more interactive and can perform more complex functions.
+
+Below are some of the best languages for beginners. Try to get comfortable with just one language that aligns with your goals, then explore others if you’d like.
+
+Don’t worry about choosing the wrong one, though. These languages share underlying concepts, so you can start with one and switch to another.
+
+HTML
+Coding for beginners programming language example: HTML
+
+Image Source
+
+Hypertext Markup Language, or HTML, is the foundation of the internet — it’s used to set the content of web pages. When you load a web page, you see an HTML document rendered by your browser.
+
+If you’re unsure whether coding is your thing, HTML is the easiest language to sample.
+
+This is because HTML isn’t technically a programming language — it doesn’t execute scripts, and you can’t build functional programs with it. Still, HTML is everywhere online, so if you want to understand the internet, you’ll first need to understand HTML.
+
+Best for: Beginners eager to step into web development and understand the basics of web page creation.
+
+CSS
+How to learn coding programming language example: CSS
+
+Image Source
+
+You might be less familiar with HTML’s sibling language, CSS. HTML handles what content appears on a web page but doesn’t affect how that content looks.
+
+This is where Cascading Style Sheets, or CSS, comes in. The CSS language handles the styling of HTML — it sets features like colors, sizing, fonts, and even entire page layouts. CSS is also not a programming language. It’s a set of rules applied to HTML.
+
+HTML and CSS are almost always used together, so I recommended learning both. Otherwise, your web pages will look rather plain.
+
+If you’re starting from square one, dive into HTML and CSS.
+HTML and CSS are easy to learn largely because they don’t require you to think through the computational logic of programming languages.
+
+Learning HTML and CSS can also feel less abstract than other languages since you see the results of your code quickly — simply create a .html file and open it in your browser. Or, open an existing website and use your inspect tool to peek at the underlying code.
+
+New Call-to-action
+But, if you want your web pages to do things, you’ll need...
+
+JavaScript
+Coding for beginners programming language example: JavaScript
+
+Image Source
+
+JavaScript is a programming language that turns static web pages into dynamic ones. It enables page elements to move, react to user actions like clicks, and handle any operation beyond simply existing on the page.
+
+If you’re interested in web development and already have a feel for HTML and CSS, JavaScript is the next step.
+
+Together, these three languages make up most of your web content. Plus, JavaScript code can be easily tested in your browser.
+
+Pro Tip: Focus on mastering DOM manipulation and asynchronous programming in JavaScript to really bring your web pages to life.
+
+Python
+How to learn coding programming language example: Python
+
+Image Source
+
+Python is a popular programming language for beginners because of its user-friendly syntax and versatility.
+
+Much of Python code reads like English, which helps beginners learn basic concepts like functions.
+
+Python also has many code libraries. These are groups of pre-built functions that you can plug into your code instead of writing the functions out yourself. With Python, you can build many different types of programs. Many introductory courses also base their projects on this language.
+
+What I like: Its extensive libraries and community support make Python a great choice for both beginners and experienced programmers.
+
+python
+C/C++
+Coding for beginners programming language example: C++
+
+C is another popular choice for introductory courses. It’s wordier than Python and often requires beginners to write more code to achieve the same things. This is more work but useful for understanding abstract concepts. With C, you’ll learn skills that can be applied to other, more succinct languages.
+
+C++ is a successor to C. C++ syntax is similar to C with the addition of objects, a powerful variable type that makes programming sophisticated applications easier.
+
+I recommend beginning with C, though, since there are fewer concepts to learn, all of which can be mapped to C++. It will also teach you the basics of function-oriented programming.
+
+Best for: Those intrigued by system-level programming, game development, or applications where performance is critical.
