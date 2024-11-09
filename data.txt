@@ -909,3 +909,82 @@ Many aspiring Web Developers are now using coding bootcamps to fast-track the le
 In fact, the practical advantages of coding bootcamps are only getting clearer over time. For one thing, the field of web development naturally attracts people from all other fields, many of them making mid-career transitions – people for whom a clear and efficient path to skills expansion is a top priority. Further, employers increasingly value skills and experience over education, placing anyone who can prove their abilities on more equal footing with Developers holding a college degree.
 
 It’s important to note that Web Developers – more than most other fields – must be committed to ongoing learning to stay on top of changes in web development and programming languages, tools, and trends. This makes mid-career retraining a must whether or not it’s the line of work you started out in.
+
+What Is Multi-Chain?
+Last Updated Date:
+June 14, 2024
+DEFINITION
+Multi-chain refers to the growing ecosystem of hundreds of blockchains that exists today.
+
+Since its beginnings as a single network called Bitcoin in 2009, the blockchain industry has grown in leaps and bounds, with pioneers continuously pushing forward the capabilities of blockchain technology. An early example of this was Ethereum, which was the first blockchain to expand the concept of blockchain technology past transaction verification to a full-fledged decentralized computing platform. This resulted in the birth of DeFi, NFTs, and other verticals, which represent the lion’s share of user-facing applications that exist today.
+
+This innovation was not limited to Bitcoin and Ethereum—hundreds of blockchains have since been created to attempt to solve the blockchain scalability trilemma and provide developers with new technology to build decentralized applications. With these blockchains, the era of multi-chain began.
+
+What Is Multi-Chain?
+At the highest level, the term “multi-chain” simply refers to the ecosystem of hundreds of blockchains that exist today. However, the term is used most frequently to describe applications that launch on multiple blockchains, widely known as “multi-chain applications.”
+
+How Does Multi-Chain Work?
+Multi-chain is the result of blockchain fragmentation. Because each blockchain is effectively an island with little to no connectivity with other blockchains or the outside world, an application on one blockchain can’t be accessed by a user on another blockchain.
+
+In a multi-chain application, developers configure a separate and isolated instance of their smart contracts for each different blockchain. This is because the immediate goal for any application after its launch is to garner more users, and so multi-chain expansion is the natural next step.
+
+A diagram showing how a multi-chain application works
+In a multi-chain application, there are separate and isolated smart contracts on each blockchain.
+Multi-chain applications are needed because decentralized applications (dApps) that exist solely on one blockchain may be missing out on millions of users on another blockchain. A user who’s already onboarded onto a different blockchain must take many steps to access that application—for example, adding a new network or downloading a new wallet, bridging funds from one blockchain to another, and then acquiring the native gas token to transact. Multi-chain expansions solve this problem by meeting users on the blockchain environments they’re already familiar with.
+
+Problems With Multi-Chain
+Multi-chain applications are a solution for developers to access the widest possible net of users, but they come with their own set of limitations.
+
+Technical Burden
+The effort to build, maintain, and update a multi-chain application is immense, especially because new blockchains are constantly emerging. For each new blockchain, developers must change their code to fit the blockchain’s specific technical requirements, ensure the code is well-written and secure, and maintain each instance separately.
+
+This is why multi-chain applications often stay within a certain ecosystem, reducing the technical complexity of launching a new application. Applications on Ethereum are far more likely to expand to EVM-compatible chains, for example.
+
+Isolated Liquidity
+Increasing liquidity results in a self-reinforcing cycle. A decentralized exchange (DEX) with the highest liquidity can offer the lowest slippage for transactions, the most expansive liquidity rails, and the highest yields to liquidity providers. It is one of the largest competitive differentiators between DeFi protocols.
+
+The lack of connectivity between individual instances of a multi-chain application is a large problem for decentralized finance (DeFi) applications specifically because it fragments this liquidity. In the current paradigm, multi-chain DeFi applications have separate liquidity pools for each blockchain, fragmenting the liquidity available to the end user.
+
+A diagram showcasing how Synthetix unifies liquidity using Chainlink CCIP.
+Synthetix leverages Chainlink CCIP to unlock cross-chain collateral for users, enabling universal liquidity pools.
+Multi-Chain vs. Cross-Chain
+The difference between cross-chain and multi-chain applications is nuanced. While cross-chain and multi-chain applications differ significantly today, it’s possible that the two terms will become synonymous in the future.
+
+Today, the largest difference is in the technical implementation of these applications. Multi-chain applications have separate and isolated smart contracts on each blockchain. In contrast, cross-chain applications have a unified set of smart contracts that communicate seamlessly across chains, unlocking a best-of-both-worlds approach given the application has access to a secure cross-chain messaging protocol.
+
+A diagram showing the difference between a cross-chain and multi-chain application.
+Cross-chain applications help abstract away the technical complexities of blockchains for both user and developer.
+Cross-chain applications unlock modularity in application design: Instead of building redundant smart contracts for each chain, developers can run separate different parts of their application on the chains they’re best suited for. A Web3 game can process game transactions on a high-throughput, low-cost chain that then mints an NFT for the player on a chain purpose-built for security. A DeFi protocol can unify liquidity by enabling users to access liquidity across any chain.
+
+With cross-chain applications, users don’t have to care about which blockchain they’re on. They only need to know how to navigate the application—a vision that started with multi-chain, but is being expanded, and fully realized, by cross-chain.
+
+Why Do We Need Multi-Chain?
+The proliferation of a multi-chain ecosystem is a healthy evolution for Web3, where different blockchains have competitive differentiators that make them the best fit for a particular type of application. It breeds competition, which then inspires innovation.
+
+Multi-chain is also a necessity for users in order for them to access the widest range of applications possible. In any user-facing application, the burden of effort lies on the developers. Users deserve a frictionless experience, and that’s what multi-chain—and cross-chain—applications offer. They meet users on the blockchain environments they’re already comfortable with.
+
+How Chainlink Empowers a Multi-Chain Ecosystem
+Cross-chain is the natural next step for multi-chain. It unlocks elegant application design, enables specialized division of labor between blockchains, and abstracts away technical complexities from both user and developer.
+
+That said, the cross-chain connectivity problem has been difficult to solve, to say the least. Historically, cross-chain bridges and messaging protocols have suffered from poor security, resulting in $2.5B+ in total value being hacked from bridges in 2022. But the demand for cross-chain—and the potential of what can be built with access to a secure cross-chain messaging protocol—has remained steady, evidenced by $7B+ in monthly bridge volume.
+
+A diagram showing bridge hack amounts and monthly bridge volume.
+Though cross-chain bridges are an integral part of Web3, they’ve historically suffered from poor security.
+That’s where Chainlink Cross-Chain Interoperability Protocol (CCIP) steps in. As the industry-leading cross-chain messaging solution, CCIP leverages the same high-quality Chainlink node operators that have securely enabled more than $12 trillion in value for DeFi protocols. With an existing platform of proven Web3 services for dApps to access price data feeds, verifiable randomness, smart contract automation, and more, Chainlink has helped power over 1,800 projects in the Web3 ecosystem to date.
+
+A diagram showing the CCIP tech stack.
+Chainlink CCIP is the most secure cross-chain messaging protocol in Web3.
+Chainlink CCIP introduces a variety of unique features that help ensure dApps can securely and reliably build cross-chain applications, such as:
+
+Simplified Token Transfers: CCIP has a plug-and-play solution that handles the complexity of burning and minting or locking and minting tokens across chains.
+Rate Limits: CCIP supports customizable rate limits on the amount of tokens able to be transferred between blockchains within a given time period.
+Smart Execution: CCIP utilizes a gas-locked fee payment mechanism to help ensure the reliable execution of cross-chain transactions regardless of destination chain gas spikes.
+Risk Management Network: The Risk Management Network continually monitors and validates the behavior of the primary CCIP network, providing an additional layer of security by independently verifying cross-chain operations.
+For full details on CCIP’s unique differentiators and technical implementation, read this blog.  
+
+Simply put, CCIP provides developers with the full functionality they need to confidently build cross-chain applications. In a vertical where security is not just a nice to have but a necessity, Chainlink’s ability to provide secure Web3 services is paramount for long-term success when building seamless decentralized applications.
+
+A New Era of Multi-Chain Is Beginning
+One key goal of all decentralized applications is to eliminate the barriers that cause users and developers alike to make a clear distinction between Web2 and Web3. It’s not difficult to imagine a universe where a user doesn’t know which blockchain they’re using, or whether an app uses blockchain technology or not. But in order to make this a reality, developers need better tools to build seamless applications that can abstract away all the technical complexities that exist today.
+
+CCIP is that technology, the start of a new multi-chain era.
