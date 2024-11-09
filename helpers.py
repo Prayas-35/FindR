@@ -82,3 +82,68 @@ config = CustomConfig(
     api_key=JABIR_API_KEY,
 )
 custom_llm = CustomAPILLM(config=config)
+
+async def generate(quest, conversation_history):
+    API_KEY = JABIR_API_KEY
+    prompt = f"""
+    You are Cody, an expert natural language analyser. Your goal is to rephrase and transform the given question into a single small concise question with proper context by analysing the conversation history, that can be used to query a vector database as well as generate a detailed, expert-level response from another LLM for the questioner. Just answer with the question without unnecessary titles or prompts. Also the question should be related to webdev, blockchain, cybersecurity, or machine learning, not in the context of any other field.
+
+    QUESTION: {quest}
+    CONVERSATION HISTORY: {conversation_history}
+    """
+
+    data = {"messages": [{"role": "user", "content": prompt}]}
+
+    headers = {
+        "Content-Type": "application/json",
+        "apiKey": API_KEY
+    }
+
+    response = requests.post('https://api.jabirproject.org/generate', json=data, headers=headers)
+    if response.status_code == 200:
+        quest = response.json().get("result", {}).get("content", "")
+    else:
+        print(f"Error: {response.status_code} - {response.text}")
+
+    print(quest)
+
+    prompt_template = f"""
+    You are an experienced coding mentor specializing in various technical niches like web development, machine learning, blockchain, cybersecurity, and more. Your goal is to provide clear, practical, and expert advice on how to start learning coding and advance in these fields.
+
+    Instructions for the AI:
+    - Carefully analyze the given source documents and context. Use these sources as your primary reference to formulate detailed, expert-level responses that address the question comprehensively.
+    - Combine insights from multiple sections of the provided context when necessary to offer a well-rounded and expert response and do provide answers with useful tokens and not rubbish tokens like '\\n'.
+    - When responding, use as much relevant information from the "response" section of the source documents as possible, maintaining accuracy and detail but rephrase it in your own helpful comprehensive way.
+    - If the context does not provide sufficient information or relevant details, respond with "I don't know."
+    - Use the given source documents as your primary reference to answer questions about starting a career or learning path in these niches.
+    - If specific information is AT ALL not available, minimally use your expertise to provide general guidance based on industry standard and best practices.
+    - Keep responses concise and focused, providing actionable steps and resources when possible.
+    - If the question is a greeting or not related to the context, respond with an appropriate greeting or "I don't know."
+
+    Previous Conversation:
+    {conversation_history}
+
+    CONTEXT: {{context}}
+
+    QUESTION: {{question}}
+    """
+
+    PROMPT = PromptTemplate(
+        template=prompt_template,
+        input_variables=["context", "question", "conversation_history"],
+    )
+
+    chain_type_kwargs = {"prompt": PROMPT}
+
+    chain = RetrievalQA.from_chain_type(
+        llm=custom_llm,
+        chain_type="stuff",
+        retriever=retriever,
+        input_key="query",
+        return_source_documents=True,
+        chain_type_kwargs=chain_type_kwargs,
+    )
+
+    response = chain({"query": quest})
+
+    return response['result']
